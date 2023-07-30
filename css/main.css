@@ -40,8 +40,7 @@ h6 {
 
 a {
   color: inherit;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 button {
@@ -892,6 +891,16 @@ img {
 }
 .modal-form__contact {
   margin-top: 12px;
+}
+.modal-form__contact-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
 }
 .modal-form__label {
   display: block;
