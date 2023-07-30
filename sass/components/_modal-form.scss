@@ -10,6 +10,12 @@
     margin-top: 12px;
   }
 
+  &__contact-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   &__label {
     display: block;
     margin-bottom: 4px;
